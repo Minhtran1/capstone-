@@ -1,7 +1,7 @@
 export default st => `
-<section>
+<section id="gallery">
 ${st.pictures.reduce(
-  (html, pic) => html + `<img src="${https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG}" alt="${pic.title}">`,
+  (html, pic) => html + `<img src="${pic.url}" alt="${pic.title}">`,
   ``
 )}
 </section>

@@ -16,16 +16,6 @@ router
   })
   .resolve();
 
-axios
-  .get("https://jsonplaceholder.typicode.com/posts")
-  .then(response => {
-    console.log("response.data", response.data);
-    response.data.forEach(post => {
-      state.Blog.posts.push(post);
-    });
-  })
-  .catch(err => console.log(err));
-
 function render(st = state.Home) {
   console.log("rendering state", st);
   document.querySelector("#root").innerHTML = `
@@ -57,8 +47,8 @@ function addNavEventListeners() {
 }
 
 function addPicOnFormSubmit(st) {
-  if (st.view === "Form") {
-    document.querySelector("form").addEventListener("submit", event => {
+  if (st.view === "More") {
+    document.querySelector("More").addEventListener("submit", event => {
       event.preventDefault();
       // convert HTML elements to Array
       let inputList = Array.from(event.target.elements);
