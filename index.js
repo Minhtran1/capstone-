@@ -1,22 +1,25 @@
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import Navigo from "navigo";
-import ( capitalize ) from "lodash";
+import { capitalize } from "lodash";
 import axios from "axios";
 
 const router = new Navigo(window.location.origin);
 
 router
   .on({
-    ":page": ({page}) => render(state[capitalize(page)]),
-    "/": () => render(state.Home)
+    "/": () => render(state.Home),
+    ":page": params => {
+      let page = capitalize(params.page);
+      render(state[page]);
+    }
   })
   .resolve();
 
-  axios
+axios
   .get("https://jsonplaceholder.typicode.com/posts")
   .then(response => {
-    console.log("response.data", response.data)
+    console.log("response.data", response.data);
     response.data.forEach(post => {
       state.Blog.posts.push(post);
     });
