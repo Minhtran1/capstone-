@@ -1,5 +1,4 @@
-export { default as About } from "./About";
-export { default as Cities } from "./Cities";
-export { default as Gallery } from "./Gallery";
-export { default as More } from "./More";
-export { default as Home } from "./Home";
+export { default as Footer } from "./Footer";
+export { default as Header } from "./Header";
+export { default as Main } from "./Main";
+export { default as Nav } from "./Nav";

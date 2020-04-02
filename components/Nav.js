@@ -1,7 +1,7 @@
 export default links => `
 <nav>
   <li class="fas fa-bars"></i>
-  <ul class ="hidden--mobile nav-link">
+  <ul class="hidden--mobile nav-link" id = "nav">
   <a href="#">Home</a></li>
   ${links.reduce(
     (html, link) =>

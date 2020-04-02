@@ -7,7 +7,7 @@ export default () => `
   </div>
   <div>
     <label for="title">Photo Title/Description:</label>
-    <input type="text" name="title" id="title" placeholder="Enter Photo Description" required>
+    <input type="text" name="title" id="title" placeholder= " Photo Description" required>
   </div>
   <input type="submit" name="submit" value="Submit Photo">
 </form>
