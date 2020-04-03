@@ -70,13 +70,11 @@ ul li.active a {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
 }
 .saying {
   font-size: 45px;
   position: relative;
-
-
 }
 .search_box {
   flex-direction: column;

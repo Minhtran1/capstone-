@@ -2,18 +2,18 @@ export default links => `
 <nav>
   <li class="fas fa-bars"></i>
   <ul class="hidden--mobile nav-link" id = "nav">
-  <a href="#">Home</a></li>
-  ${links.reduce(
-    (html, link) =>
-      html +
-      `li><a href="#">Gallery</a></li>
-      <li><a href="#">Cities</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">More</a></li>
-      link.title
-  }" data-navigo>${link.text}</a></li`,
-    ``
-  )}
+  ${links
+    .map(
+      link =>
+        `<li><a class="menu-items" href="/${link.title}">${link.text}</a></li>`
+    )
+    .join("")}
   </ul>
-  </nav> `;
+  </nav/> `;
+//       `<li><a class="active"><a href="#" class="menu-items">Home</a></li>
+//       <li><a class="active"><a href="#" class="menu-items">Cities</a></li>
+//       <li><a class="active"><a href="#" class="menu-items">About</a></li>
+//       <li><a class="active"><a href="#" class="menu-items">Gallery</a></li>
+//       <li><a class="active"><a href="#" class="menu-items">About</a></li>
+//       <li><a class="active"><a href="#" class="menu-items">Contact</a></li>
+//       <li><a class="active"><a href="#" class="menu-items">More</a></li>
