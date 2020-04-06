@@ -18,17 +18,17 @@ export default {
     },
     {
       url:
-        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Hand.JPG?raw=true",
+        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Sea.JPG?raw=true",
       title: "Light show"
     },
     {
       url:
-        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Bana.JPG?raw=true",
+        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Boats.JPG?raw=true",
       title: "Bana Hills"
     },
     {
       url:
-        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
+        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Sand.JPG?raw=true",
       title: "Patronas Towers"
     }
   ]

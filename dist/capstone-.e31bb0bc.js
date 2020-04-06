@@ -393,13 +393,13 @@ var _default = {
   }, {
     url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Tree.JPG?raw=true"
   }, {
-    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Hand.JPG?raw=true",
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Sea.JPG?raw=true",
     title: "Light show"
   }, {
-    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Bana.JPG?raw=true",
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Boats.JPG?raw=true",
     title: "Bana Hills"
   }, {
-    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Sand.JPG?raw=true",
     title: "Patronas Towers"
   }]
 };
@@ -19806,7 +19806,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57056" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61799" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
