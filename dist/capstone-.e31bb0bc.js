@@ -391,7 +391,7 @@ var _default = {
     url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
     title: "Malaysia"
   }, {
-    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Tree.JPG?raw=true"
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Signs.JPG?raw=true"
   }, {
     url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Sea.JPG?raw=true",
     title: "Light show"
@@ -19806,7 +19806,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61799" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64969" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
