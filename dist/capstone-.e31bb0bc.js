@@ -165,7 +165,9 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<section id=\"Cities\">\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <label for=\"url\">Photo URL:</label>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <label for=\"title\">Photo Title/Description:</label>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder=\"Enter Photo Description\" required>\n  </div>\n  <input type=\"submit\" name=\"submit\" value=\"Submit Photo\">\n</form>\n";
+  return "\n<section id=\"Cities\">\n".concat(st.pictures.reduce(function (html, pic) {
+    return html + "<img src=\"".concat(pic.url, "\" alt=\"").concat(pic.title, "\">");
+  }, ""), "\n</section>\n");
 };
 
 exports.default = _default;
@@ -381,7 +383,25 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   header: "Cities",
-  view: "Cities"
+  view: "Gallery",
+  pictures: [{
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Temple.JPG?raw=true",
+    title: "Singapore"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
+    title: "Malaysia"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Tree.JPG?raw=true"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Hand.JPG?raw=true",
+    title: "Light show"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Bana.JPG?raw=true",
+    title: "Bana Hills"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
+    title: "Patronas Towers"
+  }]
 };
 exports.default = _default;
 },{}],"store/Contact.js":[function(require,module,exports) {
@@ -19786,7 +19806,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60910" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57056" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
