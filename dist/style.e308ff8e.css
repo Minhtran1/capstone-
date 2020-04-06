@@ -3,14 +3,14 @@
   padding: 0;
 }
 
-header {
+.Home {
   background-image: url(https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG);
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
+
 }
 
 .search {
@@ -22,7 +22,7 @@ header {
 }
 
 ul {
-  /* float: right; */
+  float: right;
   list-style-type: none;
 }
 
@@ -32,7 +32,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   padding: 5px 20px;
   border: 1px solid transparent;
 }
@@ -46,13 +46,6 @@ ul li.active a {
   background-color: #000;
   color: #fff;
 }
-
-.logo {
-  color: #000;
-  font-family: cursive;
-  font-size: 45px;
-}
-
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -79,7 +72,7 @@ ul li.active a {
 .search_box {
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 20%;
 }
 
 input[type="text"] {
@@ -104,19 +97,64 @@ input[type="text"] {
 
 .button {
   align-items: center;
+  justify-content: center;
 }
 
 .btn {
   border: 5px solid;
   padding: 5px 40px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  transition: 0.6s ease;
 }
 
 .btn:hover {
   background-color: #fff;
   color: #000;
+}
+
+#gallery img {
+  display: block;
+  height: auto;
+  width: 75%;
+  margin: auto;
+}
+
+#gallery > * {
+  padding: 0.5rem;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+  background-color: black;
+}
+#Contact {
+  height: 50%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+#Cities {
+  height: 30%;
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+}
+#More {
+  height: 30%;
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+}
+#About {
+  height: 30%;
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+
+
 }
 
 

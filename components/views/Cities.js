@@ -1,4 +1,5 @@
 export default () => `
+<section id="Cities">
 <form id="register" method="POST" action="">
   <h2> Add a photo to the gallery!</h2>
   <div>

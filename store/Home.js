@@ -1,4 +1,4 @@
 export default {
-  header: "Your Match For Travel",
+  header: "",
   view: "Home"
 };

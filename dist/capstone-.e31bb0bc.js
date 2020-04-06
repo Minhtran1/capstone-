@@ -126,7 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "<footer><a href= \"#PageF\">About</a></footer>";
+  return "<footer><a href= \"#\"></a></footer>";
 };
 
 exports.default = _default;
@@ -152,7 +152,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "<section id=\"About\">\n<h2>Welcome To Transi</h2>\n<img src=\"https://github.com/Minhtran1/capstone-/blob/master/Pictures/Me.JPG?raw=true\" alt=\"me\">\n<p>I would like to personally welcome you to my site and feel free to scroll around and look through photos. The concept of this site is to match you to a travel destination that fits your experience as a traveler. Once you fill out a form that we have on this site, our algorithm will match you to destinations we think fits you the best. </p>\n</section>";
+  return "<section id=\"About\">\n<h2>Welcome To Transi</h2>\n<p>I would like to personally welcome you to my site and feel free to scroll around and look through photos. The concept of this site is to match you to a travel destination that fits your experience as a traveler. Once you fill out a form that we have on this site, our algorithm will match you to destinations we think fits you the best. </p>\n\n</section>";
 };
 
 exports.default = _default;
@@ -165,7 +165,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <label for=\"url\">Photo URL:</label>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <label for=\"title\">Photo Title/Description:</label>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder=\"Enter Photo Description\" required>\n  </div>\n  <input type=\"submit\" name=\"submit\" value=\"Submit Photo\">\n</form>\n";
+  return "\n<section id=\"Cities\">\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <label for=\"url\">Photo URL:</label>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <label for=\"title\">Photo Title/Description:</label>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder=\"Enter Photo Description\" required>\n  </div>\n  <input type=\"submit\" name=\"submit\" value=\"Submit Photo\">\n</form>\n";
 };
 
 exports.default = _default;
@@ -193,7 +193,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <label for=\"url\">Photo URL:</label>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <label for=\"title\">Photo Title/Description:</label>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder= \" Photo Description\" required>\n  </div>\n  <input type=\"submit\" name=\"submit\" value=\"Submit Photo\">\n</form>\n";
+  return "\n<section id =\"More\">\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <label for=\"url\">Photo URL:</label>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <label for=\"title\">Photo Title/Description:</label>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder= \" Photo Description\" required>\n  </div>\n  <input type=\"submit\" name=\"submit\" value=\"Submit Photo\">\n</form>\n";
 };
 
 exports.default = _default;
@@ -206,7 +206,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<div class=\"search\">\n  <div class=\"middle-bar\">\n    <h1 class=\"saying\">\n      MEET YOUR MATCH FOR TRAVEL\n    </h1>\n  </div>\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      </div>";
+  return "\n<div class=\"Home\">\n  <div class=\"btn\">\n    <h1 class=\"Home\">\n    </h1>\n  </div>\n <div class=\"ul li a\">\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      </div>";
 };
 
 exports.default = _default;
@@ -219,7 +219,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<section id =\"PageF\">\n  <h1>Welcome to TRANSI - Where we match your travel needs with your experiences./h1>\n  <img src = \"https://github.com/Minhtran1/capstone-/blob/master/Pictures/vietnam.jpg?raw=true\">\n  <p>This page will help you find what places you want to go or better yet help you find places you never imagine to visit.</p>\n  <div>\n  <button><a href=\"mailto:Minhbtran@yahoo.com\" target=\"_blank\">Email Me</a></button>\n  </div>\n</section>";
+  return "\n<section id =\"Contact\">\n  <h1> Welcome to TRANSI - Where we match your travel needs with your experiences\n  <p>This page will help you find what places you want to go or better yet help you find places you never imagine to visit.</p>\n  <div>\n  <button><a href=\"mailto:Minhbtran@yahoo.com\" target=\"_blank\">Email Me</a></button>\n  </div>\n</section>";
 };
 
 exports.default = _default;
@@ -406,41 +406,27 @@ exports.default = void 0;
 var _default = {
   header: "Gallery",
   view: "Gallery",
-  pictures: [// {
-    //   url:
-    //     "https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG",
-    //   title: "Singapore"
-    // },
-    // {
-    //   url:
-    //     "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaka.JPG?raw=true",
-    //   title: "Malaysia"
-    // },
-    // {
-    //   url:
-    //     "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Tree.JPG?raw=true"
-    // },
-    // {
-    //   url:
-    //     "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
-    //   title: "Light show"
-    // },
-    // {
-    //   url:
-    //     "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Bana.JPG?raw=true",
-    //   title: "Bana Hills"
-    // },
-    // {
-    //   url:
-    //     "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
-    //   title: "Patronas Towers"
-    // },
-    // {
-    //   url:
-    //     "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Hand.JPG?raw=true",
-    //   title: "Golden Bridge"
-    // }
-  ]
+  pictures: [{
+    url: "https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG",
+    title: "Singapore"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaka.JPG?raw=true",
+    title: "Malaysia"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Tree.JPG?raw=true"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Hand.JPG?raw=true",
+    title: "Light show"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Bana.JPG?raw=true",
+    title: "Bana Hills"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
+    title: "Patronas Towers"
+  }, {
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
+    title: "Golden Bridge"
+  }]
 };
 exports.default = _default;
 },{}],"store/Links.js":[function(require,module,exports) {
@@ -490,7 +476,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _default = {
-  header: "Your Match For Travel",
+  header: "",
   view: "Home"
 };
 exports.default = _default;
@@ -19800,7 +19786,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64498" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60910" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,10 +1,10 @@
 export default () => `
-<div class="search">
-  <div class="middle-bar">
-    <h1 class="saying">
-      MEET YOUR MATCH FOR TRAVEL
+<div class="Home">
+  <div class="btn">
+    <h1 class="Home">
     </h1>
   </div>
+ <div class="ul li a">
 <input type="text" placeholder="Search">
       <div class="button">
         <a href="#" class="btn">CHOOSE A CITY</a>

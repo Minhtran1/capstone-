@@ -1,1 +1,1 @@
-export default () => `<footer><a href= "#PageF">About</a></footer>`;
+export default () => `<footer><a href= "#"></a></footer>`;
