@@ -30,11 +30,6 @@ export default {
       url:
         "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
       title: "Patronas Towers"
-    },
-    {
-      url:
-        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
-      title: "Golden Bridge"
     }
   ]
 };

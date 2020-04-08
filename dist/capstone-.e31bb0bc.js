@@ -139,7 +139,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default(st) {
-  return "\n<header>\n  <h1>TRANSI: ".concat(st.header, "</h1>\n</header>\n");
+  return "\n<header>\n\n</header>\n";
 };
 
 exports.default = _default;
@@ -152,7 +152,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "<section id=\"About\">\n<h2>Welcome To Transi</h2>\n<p>I would like to personally welcome you to my site and feel free to scroll around and look through photos. The concept of this site is to match you to a travel destination that fits your experience as a traveler. Once you fill out a form that we have on this site, our algorithm will match you to destinations we think fits you the best. </p>\n\n</section>";
+  return "<section id=\"About\">\n<h1>Welcome To Transi</h1>\n\n<p>I would like to personally welcome you to my site and feel free to scroll around and look through photos. The concept of this site is to match you to a travel destination that fits your experience as a traveler. Once you fill out a form that we have on this site, our algorithm will match you to destinations we think fits you the best. </p>\n\n</section>";
 };
 
 exports.default = _default;
@@ -208,7 +208,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<div class=\"Home\">\n  <div class=\"btn\">\n    <h1 class=\"Home\">\n    </h1>\n  </div>\n <div class=\"ul li a\">\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      </div>";
+  return "\n<div class=\"Home\">\n  <div class=\"title\">\n    <h1 class=\"Home\">\n    </h1> TRANSI\n  </div>\n<div class=\"searchButton\">\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      ";
 };
 
 exports.default = _default;
@@ -309,17 +309,10 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default(links) {
-  return "\n<nav>\n  <li class=\"fas fa-bars\"></i>\n  <ul class=\"hidden--mobile nav-link\" id = \"nav\">\n  ".concat(links.map(function (link) {
+  return "\n<nav>\n  <li class=\"fas fa-bars\"></li>\n  <ul class=\"hidden--mobile nav-link\" id = \"nav\">\n  ".concat(links.map(function (link) {
     return "<li><a class=\"menu-items\" href=\"/".concat(link.title, "\">").concat(link.text, "</a></li>");
   }).join(""), "\n  </ul>\n  </nav/> ");
-}; //       `<li><a class="active"><a href="#" class="menu-items">Home</a></li>
-//       <li><a class="active"><a href="#" class="menu-items">Cities</a></li>
-//       <li><a class="active"><a href="#" class="menu-items">About</a></li>
-//       <li><a class="active"><a href="#" class="menu-items">Gallery</a></li>
-//       <li><a class="active"><a href="#" class="menu-items">About</a></li>
-//       <li><a class="active"><a href="#" class="menu-items">Contact</a></li>
-//       <li><a class="active"><a href="#" class="menu-items">More</a></li>
-
+};
 
 exports.default = _default;
 },{}],"components/index.js":[function(require,module,exports) {
@@ -391,7 +384,7 @@ var _default = {
     url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
     title: "Malaysia"
   }, {
-    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Signs.JPG?raw=true"
+    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Yellow.JPG?raw=true"
   }, {
     url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Sea.JPG?raw=true",
     title: "Light show"
@@ -443,9 +436,6 @@ var _default = {
   }, {
     url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Malaysia.JPG?raw=true",
     title: "Patronas Towers"
-  }, {
-    url: "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Light.JPG?raw=true",
-    title: "Golden Bridge"
   }]
 };
 exports.default = _default;
@@ -19806,7 +19796,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64969" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57021" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

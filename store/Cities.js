@@ -14,7 +14,7 @@ export default {
     },
     {
       url:
-        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Signs.JPG?raw=true"
+        "https://github.com/Minhtran1/capstone-/blob/master/Pictures/Yellow.JPG?raw=true"
     },
     {
       url:

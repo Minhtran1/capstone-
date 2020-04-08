@@ -3,14 +3,14 @@
   padding: 0;
 }
 
-.Home {
+header {
   background-image: url(https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG);
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
   display: flex;
-
+  flex-direction: column;
 }
 
 .search {
@@ -22,9 +22,9 @@
 }
 
 ul {
-  float: right;
+  /* float: right; */
   list-style-type: none;
-}
+} */
 
 ul li {
   display: inline-block;
@@ -32,7 +32,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 5px 20px;
   border: 1px solid transparent;
 }
@@ -41,11 +41,17 @@ ul li a:hover {
   background-color: #fff;
   color: #000;
 }
-
 ul li.active a {
   background-color: #000;
   color: #fff;
 }
+
+.logo {
+  color: #000;
+  font-family: cursive;
+  font-size: 45px;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -63,16 +69,18 @@ ul li.active a {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: Impact, Haettenschweiler, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .saying {
   font-size: 45px;
   position: relative;
+
+
 }
 .search_box {
   flex-direction: column;
   justify-content: center;
-  width: 20%;
+  width: 100%;
 }
 
 input[type="text"] {
@@ -97,21 +105,20 @@ input[type="text"] {
 
 .button {
   align-items: center;
-  justify-content: center;
 }
 
 .btn {
   border: 5px solid;
   padding: 5px 40px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
+  transition: 0.6s ease;
 }
 
 .btn:hover {
   background-color: #fff;
   color: #000;
 }
-
 #gallery img {
   display: block;
   height: auto;
@@ -129,8 +136,8 @@ input[type="text"] {
   background-color: black;
 }
 #Contact {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -143,18 +150,18 @@ input[type="text"] {
   text-align: center;
 }
 #More {
-  height: 30%;
-  width: 30%;
+  height: 100%;
+  width: 100%;
   font-weight: bold;
   text-align: center;
 }
+
 #About {
-  height: 30%;
-  width: 30%;
-  font-weight: bold;
-  text-align: center;
-
-
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
