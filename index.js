@@ -18,9 +18,9 @@ router
 function render(st = state.Home) {
   console.log("rendering state", st);
   document.querySelector("#root").innerHTML = `
-  ${Header(st)}
   ${Nav(state.Links)}
   ${Main(st)}
+  ${Header(st)}
   ${Footer()}
 `;
 

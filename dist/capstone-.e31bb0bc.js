@@ -208,7 +208,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<div class=\"Home\">\n  <div class=\"title\">\n    <h1 class=\"Home\">\n    </h1> TRANSI\n  </div>\n<div class=\"searchButton\">\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      ";
+  return "\n<div class=\"home\">\n<div class=\"searchButton\">\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      </div>\n</div>\n";
 };
 
 exports.default = _default;
@@ -309,9 +309,9 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default(links) {
-  return "\n<nav>\n  <li class=\"fas fa-bars\"></li>\n  <ul class=\"hidden--mobile nav-link\" id = \"nav\">\n  ".concat(links.map(function (link) {
+  return "\n<nav>\n  <div class=\"title\">\n    <h4>TRANSI</h4>\n  </div>\n  <ul class=\"hidden--mobile nav-link\" id = \"nav\">\n  ".concat(links.map(function (link) {
     return "<li><a class=\"menu-items\" href=\"/".concat(link.title, "\">").concat(link.text, "</a></li>");
-  }).join(""), "\n  </ul>\n  </nav/> ");
+  }).join(""), "\n  </ul>\n  </nav> ");
 };
 
 exports.default = _default;
@@ -19748,7 +19748,7 @@ router.on({
 function render() {
   var st = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : state.Home;
   console.log("rendering state", st);
-  document.querySelector("#root").innerHTML = "\n  ".concat((0, _components.Header)(st), "\n  ").concat((0, _components.Nav)(state.Links), "\n  ").concat((0, _components.Main)(st), "\n  ").concat((0, _components.Footer)(), "\n");
+  document.querySelector("#root").innerHTML = "\n  ".concat((0, _components.Nav)(state.Links), "\n  ").concat((0, _components.Main)(st), "\n  ").concat((0, _components.Header)(st), "\n  ").concat((0, _components.Footer)(), "\n");
   router.updatePageLinks();
   addNavEventListeners();
 }
@@ -19796,7 +19796,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57021" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65105" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
