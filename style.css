@@ -4,7 +4,7 @@
 }
 
 header {
-  background-image: url(https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG);
+  /* background-image: url(https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG); */
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -20,11 +20,6 @@ header {
   align-items: center;
   margin: auto;
 }
-
-ul {
-  /* float: right; */
-  list-style-type: none;
-} */
 
 ul li {
   display: inline-block;
@@ -162,4 +157,56 @@ input[type="text"] {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Vanessa's additions. Delete this comment later */
+
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  align-items: center;
+  list-style: none;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+h4 {
+  letter-spacing: 4px;
+  color: white;
+}
+
+body {
+  background: url('https://raw.githubusercontent.com/Minhtran1/capstone-/master/Pictures/Singapore.JPG') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home {
+  margin-top: -100px;
+  /* This moves the search bar up. Adjust to where you want it */
+}
+
+.searchButton {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 600px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 40%;
+}
+
+.button {
+  margin-top: 30px;
 }

@@ -1,6 +1,8 @@
 export default links => `
 <nav>
-  <li class="fas fa-bars"></li>
+  <div class="title">
+    <h4>TRANSI</h4>
+  </div>
   <ul class="hidden--mobile nav-link" id = "nav">
   ${links
     .map(
@@ -9,4 +11,4 @@ export default links => `
     )
     .join("")}
   </ul>
-  </nav/> `;
+  </nav> `;
