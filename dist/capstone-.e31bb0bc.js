@@ -152,7 +152,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "<section id=\"About\">\n  <div>\n<h1>Welcome To Transi!</h1>\n<div>\n<p>I would like to personally welcome you to my site and feel free to scroll around and look\nthrough photos.</p> </div>\n\n</section>";
+  return "<section id=\"About\">\n  <div>\n<h1>Welcome To Transi</h1>\n</div>\n<div>\n<p></p>\n</div>\n\n</section>";
 };
 
 exports.default = _default;
@@ -208,7 +208,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<div><\n<div class=\"home\">\n<div class=\"searchButton\">\n<h1>Your Match For Travel </h1>\n<input type=\"text\" placeholder=\"Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      </div>\n</div>\n";
+  return "\n<div><\n<div class=\"home\">\n<div class=\"searchButton\">\n<h1>Your Match For Travel </h1>\n<input type=\"text\" placeholder=\"Begin Your Search\">\n      <div class=\"button\">\n        <a href=\"#\" class=\"btn\">CHOOSE A CITY</a>\n        <a href=\"#\" class=\"btn\">LEARN MORE</a>\n      </div>\n</div>\n";
 };
 
 exports.default = _default;
@@ -221,7 +221,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<section id =\"Contact\">\n  <h1> Welcome to TRANSI - Where we match your travel needs with your experiences\n  <p>This page will help you find what places you want to go or better yet help you find places you never imagine to visit.</p>\n  <div>\n  <button><a href=\"mailto:Minhbtran@yahoo.com\" target=\"_blank\">Contact Me</a></button>\n  </div>\n</section>";
+  return "\n<section id =\"Contact\">\n  <h1> Have a question or suggestions?</h1>\n  <div>\n  <button><a href=\"mailto:Minhbtran@yahoo.com\" target=\"_blank\">Contact Me</a></button>\n  </div>\n</section>";
 };
 
 exports.default = _default;
@@ -19796,7 +19796,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49269" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56151" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
