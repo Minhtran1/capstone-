@@ -10,6 +10,8 @@ export default () => `
     <h5>Photo Title/Description:</h5>
     <input type="text" name="title" id="title" placeholder= " Photo Description" required>
   </div>
-  <input type="submit" name="submit" value="Submit Photo">
+  <div>
+  <input type="submit" class="submit" value="Submit Photo">
+  </div>
 </form>
 `;

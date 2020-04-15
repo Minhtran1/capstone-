@@ -63,13 +63,11 @@ ul li.active a {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
 }
 .saying {
   font-size: 45px;
   position: relative;
-
-
 }
 .search_box {
   flex-direction: column;
@@ -158,7 +156,6 @@ input[type="text"] {
 }
 
 h2 {
-  /* justify-content: center; */
   text-align: center;
   font-size: 40px;
   font-family: Impact, Haettenschweiler, sans-serif;
@@ -182,7 +179,6 @@ h6 {
   height: 90vh;
   justify-content: center;
   width: 100px;
-  /* flex-direction: column; */
   margin: 0 auto;
   align-items: center;
   margin-bottom: 40%;
@@ -216,7 +212,7 @@ body {
 
 .home {
   margin-top: -0px;
-  /* This moves the search bar up. Adjust to where you want it */
+
 }
 
 .searchButton {
@@ -232,8 +228,9 @@ body {
 
 h1 {
   text-align: center;
+  justify-content: center;
   font-size: 55px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, sans-serif;
   color: white;
 }
 
@@ -243,6 +240,18 @@ h1 {
 p {
   text-align: center;
   font-size: 20px;
+}
+h3 {
+  text-align: center;
+  justify-content: center;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.submit{
+  display: block;
+  margin: 0 auto;
 }
 
 

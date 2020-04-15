@@ -1,10 +1,8 @@
 export default () =>
   `<section id="About">
   <div>
-<h1>Welcome To Transi</h1>
+<h3>WELCOME TO TRANSI</h3>
 </div>
-<div>
-<p></p>
-</div>
+
 
 </section>`;

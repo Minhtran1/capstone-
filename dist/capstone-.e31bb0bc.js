@@ -126,7 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "<footer><a href= \"#\"></a></footer>";
+  return "<footer><a href= \"#Transi2020\"></a></footer>";
 };
 
 exports.default = _default;
@@ -152,7 +152,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "<section id=\"About\">\n  <div>\n<h1>Welcome To Transi</h1>\n</div>\n<div>\n<p></p>\n</div>\n\n</section>";
+  return "<section id=\"About\">\n  <div>\n<h3>WELCOME TO TRANSI</h3>\n</div>\n\n\n</section>";
 };
 
 exports.default = _default;
@@ -166,7 +166,7 @@ exports.default = void 0;
 
 var _default = function _default() {
   return "\n<section id=\"Cities\">\n".concat(st.pictures.reduce(function (html, pic) {
-    return html + "<img src=\"".concat(pic.url, "\" alt=\"").concat(pic.title, "\">");
+    return html + "<img src=\"".concat(pic.url, "\" alt=\"").concat(pic.place, "\">");
   }, ""), "\n</section>\n");
 };
 
@@ -195,7 +195,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<section id =\"More\">\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <h6>Photo URL:</h6>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <h5>Photo Title/Description:</h5>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder= \" Photo Description\" required>\n  </div>\n  <input type=\"submit\" name=\"submit\" value=\"Submit Photo\">\n</form>\n";
+  return "\n<section id =\"More\">\n<form id=\"register\" method=\"POST\" action=\"\">\n  <h2> Add a photo to the gallery!</h2>\n  <div>\n    <h6>Photo URL:</h6>\n    <input type=\"text\" name=\"url\" id=\"url\" placeholder=\"Enter Photo URL\" required>\n  </div>\n  <div>\n    <h5>Photo Title/Description:</h5>\n    <input type=\"text\" name=\"title\" id=\"title\" placeholder= \" Photo Description\" required>\n  </div>\n  <div>\n  <input type=\"submit\" class=\"submit\" value=\"Submit Photo\">\n  </div>\n</form>\n";
 };
 
 exports.default = _default;
@@ -221,7 +221,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<section id =\"Contact\">\n  <h1> Have a question or suggestions?</h1>\n  <div>\n  <button><a href=\"mailto:Minhbtran@yahoo.com\" target=\"_blank\">Contact Me</a></button>\n  </div>\n</section>";
+  return "\n<section id =\"Contact\">\n  <h1> HAVE A SUGGESTION OR QUESTION?</h1>\n  <div>\n  <button><a href=\"mailto:Minhbtran@yahoo.com\" target=\"_blank\">Contact Me</a></button>\n  </div>\n</section>";
 };
 
 exports.default = _default;
@@ -19796,7 +19796,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56151" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58453" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
